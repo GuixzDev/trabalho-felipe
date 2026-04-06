@@ -96,7 +96,7 @@ public class Loja {
      * Promocao 1: Apple - Core i3, 8GB RAM, 500GB HD, macOS Sequoia, USB 16GB
      */
     public static Computador criarPromocao1() {
-        Computador pc = new Computador("Apple", 5066.0f);
+        Computador pc = new Computador("Apple", 566.0f);
         pc.addHardwareBasico(new HardwareBasico("Processador Core i3", 2200f));
         pc.addHardwareBasico(new HardwareBasico("RAM", 8f));
         pc.addHardwareBasico(new HardwareBasico("HD", 500f));
@@ -109,7 +109,7 @@ public class Loja {
      * Promocao 2: Samsung - Core i5, 16GB RAM, 1TB HD, Windows 8, USB 32GB
      */
     public static Computador criarPromocao2() {
-        Computador pc = new Computador("Samsung", 3766.0f);
+        Computador pc = new Computador("Samsung", 1800.0f);
         pc.addHardwareBasico(new HardwareBasico("Processador Core i5", 3370f));
         pc.addHardwareBasico(new HardwareBasico("RAM", 16f));
         pc.addHardwareBasico(new HardwareBasico("HD", 1000f));
@@ -122,7 +122,7 @@ public class Loja {
      * Promocao 3: Dell - Core i7, 32GB RAM, 2TB HD, Windows 10, HD Externo 1TB
      */
     public static Computador criarPromocao3() {
-        Computador pc = new Computador("Dell", 6366.0f);
+        Computador pc = new Computador("Dell", 6244.0f);
         pc.addHardwareBasico(new HardwareBasico("Processador Core i7", 4500f));
         pc.addHardwareBasico(new HardwareBasico("RAM", 32f));
         pc.addHardwareBasico(new HardwareBasico("HD", 2000f));
