@@ -56,31 +56,7 @@ public class Computador {
         this.sistemaOperacional = so;
     }
 
-    public String getMarca() {
-        return marca;
-    }
-
-    public void setMarca(String marca) {
-        this.marca = marca;
-    }
-
     public float getPreco() {
         return preco;
-    }
-
-    public void setPreco(float preco) {
-        this.preco = preco;
-    }
-
-    public ArrayList<HardwareBasico> getHardwareBasico() {
-        return hardwareBasico;
-    }
-
-    public SistemaOperacional getSistemaOperacional() {
-        return sistemaOperacional;
-    }
-
-    public MemoriaUSB getMemoriaUSB() {
-        return memoriaUSB;
     }
 }

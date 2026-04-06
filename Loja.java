@@ -88,6 +88,9 @@ public class Loja {
         System.out.println("\n========================================");
         System.out.println("VALOR TOTAL DA COMPRA: R$ " + String.format("%.2f", cliente.calculaTotalCompra()));
         System.out.println("========================================");
+
+        // Processa o pedido
+        ProcessarPedido.enviarPedido(cliente.getComputadores());
     }
 
     // ========== METODOS DE CRIACAO DAS PROMOCOES ==========
